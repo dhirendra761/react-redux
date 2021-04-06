@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+/* Here are the my css: */
+.cart-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+}
+.img-wrapper img {
+  height: 150px;
+  width: auto;
+}
+.btn-wrapper button {
+  padding: 8px;
+  background: #058888;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 0 white;
+  border: 0;
+  border-radius: 7px;
+  outline: 0;
+}
+.addtoCart-wrapper img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
